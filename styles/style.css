@@ -30,6 +30,7 @@ body{
   color: white;
   font-size: 1.1rem;
   font-weight: 600;
+  cursor: pointer;
 }
 .btn-transparent{
   padding: 1rem 2.5rem;
@@ -40,10 +41,13 @@ body{
   font-size: 1.1rem;
   font-weight: 600;
   margin-left: 1rem;
+  cursor: pointer;
 }
 
 /* nav bar styles */
-
+.bar-icon{
+  display: none;
+}
 .navbar{
   display: flex;
   justify-content: space-between;

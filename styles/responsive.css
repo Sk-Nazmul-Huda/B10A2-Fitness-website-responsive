@@ -1,0 +1,62 @@
+@media screen and (max-width:576px) {
+  .btn-primary{
+    padding: 0.6rem 1.4rem;    
+    border-radius: 2.5rem;    
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  .btn-transparent{
+    padding: 0.6rem 1.4rem;
+    border-radius: 2.5rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-left: 0.5rem;
+  }
+  .nav-container{
+    display: none;
+  }
+  .bar-icon{
+    display: block;
+  }
+  .banner-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 1.5rem; */
+  }
+  .banner-left, .banner-right{
+    width: 100%;
+    
+  }
+  .banner-left h1{
+    font-size: 2rem;
+    font-weight: 900;
+    text-align: left;
+  }
+  .banner-left h1 > span{
+    
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1px;  
+  }
+  .banner-left p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0.5px;
+  }
+  .banner-image{
+    width: 100%;
+  }
+  .right-part-1{
+   
+    left: 1rem;
+    bottom: 3rem;
+    
+    
+    padding: 1rem;
+    
+    border-radius: 0.9rem;
+  }
+ 
+}
