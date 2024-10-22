@@ -234,5 +234,101 @@ p{
   width: 100%;  
   border-radius: 1.5rem;  
 }
-
+/* BMI calculator section style */
+.bmi-heading{
+  padding: 4rem;
+  margin-left: 15rem;
+}
+.bmi-heading h2{
+  margin-bottom: 1rem;
+}
+.bmi-heading p{
+  width: 60%;
+}
+.bmi-section-container{
+  background-color: rgb(34, 34, 34);
+  padding: 3rem 0;
+}
+.bmi-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bmi-chart{
+  width: 50%;
+}
+.bmi-chart h4{
+  font-size: 1.8rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+.bmi-calculate{
+  width: 50%;
+}
+table, th, td{
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+}
+table{
+  width: 70%;
+  height: 200px;
+ 
+}
+th{
+  font-size: 1rem;
+  font-weight: 500;
+  
+}
+td{
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);  
+}
+.bmi-calculate h4{
+  font-size: 1.8rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+.bmi-calculate p{
+  width: 70%;
+  margin-bottom: 1rem;
+}
+.line-1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line-1-a, .line-1-b{
+  width: 50%;
+}
+.line-1-a input, .line-1-b input{
+  width: 100%;
+  height: 2rem;
+}
+.line-1-b select, .last-line{
+  width: 100%;
+  height: 2rem;
+}
+.last-line select{
+  width: 100%;
+  height: 2rem;
+}
+.line-1 input, .line-1 select, .last-line select{
+  background-color: rgba(255, 255, 255, 0.1);  
+  border-radius: 0.6rem;
+  border: none;
+  padding: 0.5rem;
+}
+.line-1{
+  margin: 0.8rem 0;
+}
+.last-line{
+  margin-bottom: 2.5rem;
+}
+.line-1-a{
+  margin-right: 0.3rem;
+}
+.line-1-b{
+  margin-left: 0.3rem;
+}
 

@@ -12,6 +12,10 @@
     font-weight: 500;
     margin-left: 0.5rem;
   }
+  .btn-join, .btn-app{
+    width: 46%;
+    font-size: 0.6rem;
+  }
   .nav-container{
     display: none;
   }
