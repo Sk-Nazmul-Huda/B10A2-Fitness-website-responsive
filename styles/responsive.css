@@ -48,15 +48,21 @@
   .banner-image{
     width: 100%;
   }
-  .right-part-1{
-   
+  .right-part-1{   
     left: 1rem;
-    bottom: 3rem;
-    
-    
-    padding: 1rem;
-    
+    bottom: 3rem;    
+    padding: 1rem;   
     border-radius: 0.9rem;
+  }
+  /* change your habit section style */
+  .habit-image-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .habit-heading h2{
+    font-size: 1.8rem;
   }
  
 }
