@@ -331,4 +331,73 @@ td{
 .line-1-b{
   margin-left: 0.3rem;
 }
+/* Meet Our Team section style */
+.team-heading{
+  text-align: center;
+  padding: 4rem;
+  
+}
+.team-heading h2{
+  margin-bottom: 1rem;
+}
+.team-heading p{
+  width: 50%;
+  margin: 0 auto;
+}
+.image{
+  width: 100%;
+  height: 250px;
+  border-radius: 0.6rem;
+  position: relative;
 
+}
+.image-1{
+  background-image: url(../images/trainer1.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+.image-2{
+  background-image: url(../images/trainer2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-3{
+  background-image: url(../images/trainer3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-4{
+  background-image: url(../images/trainer4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-5{
+  background-image: url(../images/trainer5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-6{
+  background-image: url(../images/trainer6.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.meet-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 0.6rem;
+  
+}
+.image h5{
+  position: absolute;
+  left: 0.3rem;
+  bottom: 1.5rem;
+}
+.image p{
+  position: absolute;
+  left: 0.3rem;
+  bottom: 0.5rem;
+}
