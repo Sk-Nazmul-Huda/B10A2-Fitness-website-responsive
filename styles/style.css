@@ -205,5 +205,38 @@ p{
   width: 80%;
   margin: 0 auto;
 }
+/* Extra mile section style */
+.mile-container{
+  background-color: rgb(34, 34, 34);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+.mile-text-container, .mile-image-container{
+  width: 40%;  
+  overflow: hidden;
+}
+.mile-text-container{
+  padding-left: 2.5rem; 
+}
+.mile-text-container h2{
+  margin-bottom: 1rem;
+}
+.mile-text-container p{
+  margin-bottom: 2rem;
+}
+.mile-image-container{
+  padding: 3rem 2rem;
+
+}
+
+.mile-image-container img{
+  width: 100%;  
+  border-radius: 1.5rem;
+  
+  
+  
+}
 
 
