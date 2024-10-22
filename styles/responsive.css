@@ -64,5 +64,25 @@
   .habit-heading h2{
     font-size: 1.8rem;
   }
+  /* Extra mile section style */
+.mile-container{ 
+ flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1.5rem;
+}
+.mile-text-container, .mile-image-container{
+  width: 100%;  
+  overflow: hidden;
+}
+.mile-text-container h2{
+  font-size: 2rem;
+}
+.mile-text-container{
+  padding: 1.5rem; 
+}
+.join-now-btn{
+  width: 100%;  
+}
  
 }
