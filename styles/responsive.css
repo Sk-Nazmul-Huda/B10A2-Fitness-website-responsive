@@ -88,5 +88,42 @@
 .join-now-btn{
   width: 100%;  
 }
- 
+/* BMI calculator section */
+.bmi-heading{
+  padding: 1rem;
+  margin-left: 0;
+  margin-top: 1.5rem;
+}
+.bmi-heading h2{
+  font-size: 1.5rem;
+}
+.bmi-heading p{
+  width: 90%;
+}
+.bmi-container{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bmi-chart, .bmi-calculate{
+  width: 100%;
+}
+.bmi-chart h4{
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+table{
+  width: 90%;
+  height: 200px; 
+}
+.bmi-calculate h4{
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin: 1.5rem 0;
+}
+.bmi-calculate p{
+  width: 90%;
+  margin-bottom: 1rem;
+}
 }
