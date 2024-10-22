@@ -142,4 +142,27 @@ table{
 .image-1{
   background-size: cover;
 }
+/* Fooetr section */
+.footer-wrap{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.footer-logo{
+  width: 80%;
+  margin-bottom: 2rem;
+}
+.footer-logo h2{
+  font-size: 3rem;  
+  font-weight: 700;
+}
+.footer-middle, .footer-right{
+  width: 80%;
+  padding-left: 0;
+  
+}
+.footer-middle{
+  margin-bottom: 2rem;
+}
 }
