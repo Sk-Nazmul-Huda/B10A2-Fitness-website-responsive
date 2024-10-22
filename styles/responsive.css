@@ -126,4 +126,20 @@ table{
   width: 90%;
   margin-bottom: 1rem;
 }
+/* Meet our team */
+.team-heading h2{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.team-heading p{
+  width: 90%;  
+}
+.meet-container{
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 90%;  
+}
+.image-1{
+  background-size: cover;
+}
 }
