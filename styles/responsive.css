@@ -142,7 +142,38 @@ table{
 .image-1, .image-4{
   background-size: cover;
 }
-/* Fooetr section */
+/*====== Gym section= ==== */
+.gym-heading h2{
+  font-size: 2rem;
+}
+.gym-div-container{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gym-div-container h4{
+  font-size: 0.8rem;
+  margin-bottom: 0.6rem;
+  
+}
+.div-1{
+  width: 95%;
+  margin: 0 auto;
+}
+
+.gym-search input{
+  width: 70%;
+  padding: 1rem 0.1rem;
+  border-radius: 0.5rem;
+}
+.gym-search button{
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgb(230, 83, 60);
+}
+
+
+/* Footer section */
 .footer-wrap{
   flex-direction: column;
   justify-content: center;
@@ -164,5 +195,8 @@ table{
 }
 .footer-middle{
   margin-bottom: 2rem;
+}
+.nazmul{
+  display: block;
 }
 }
