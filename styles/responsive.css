@@ -139,7 +139,7 @@ table{
   grid-template-columns: 1fr;
   width: 90%;  
 }
-.image-1{
+.image-1, .image-4{
   background-size: cover;
 }
 /* Fooetr section */
