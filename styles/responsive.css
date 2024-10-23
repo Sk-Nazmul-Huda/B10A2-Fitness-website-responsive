@@ -26,7 +26,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* gap: 1.5rem; */
+    
   }
   .banner-left, .banner-right{
     width: 100%;
@@ -114,7 +114,7 @@
   margin-bottom: 2rem;
 }
 table{
-  width: 90%;
+  width: 100%;
   height: 200px; 
 }
 .bmi-calculate h4{
@@ -187,6 +187,7 @@ table{
 .footer-logo h2{
   font-size: 3rem;  
   font-weight: 700;
+  margin-bottom: 1.6rem;
 }
 .footer-middle, .footer-right{
   width: 80%;
